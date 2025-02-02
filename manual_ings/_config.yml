@@ -4,11 +4,18 @@
 # https://jupyterbook.org/customize/config.html
 
 #######################################################################################
+# Some relevant links
+# Example of jupyter book in spanish: https://plantsandpython.github.io/PlantsAndPython/00_Opening_page.html
+# Ejemplo de Jupyter book: https://github.com/Jero2760/jupyter-book-ejemplo
+# Preguntas test: https://github.com/jmshea/jupyterquiz
+# flashcards (anki): https://github.com/jmshea/jupytercards
+
 # Book settings
 title                       : Ingeniería del software  # The title of the book. Will be placed in the left navbar.
 author                      : Ángel Lareo  # The author of the book
 copyright                   : "2025"  # Copyright year to be placed in the footer
-logo                        : logo.png  # A path to the book logo
+logo                        : logo_ings.png  # A path to the book logo. 
+# Logo remade from: https://www.freepik.es/vector-gratis/composicion-linea-plana-desarrollo-software-caracteres-humanos-garabato-ventanas-computadora-lineas-codigo-engranajes-ilustracion-vectorial_70560967.htm
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -35,3 +42,9 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+sphinx:
+  # recursive_update: true
+  config:
+    html_context:
+      default_mode: light

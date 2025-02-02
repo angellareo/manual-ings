@@ -1,10 +1,24 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
-
+#           and https://jupyterbook.org/en/stable/structure/toc.html
 format: jb-book
 root: intro
-chapters:
+parts:
+  #- file: agradecimientos
+  - caption: I. Introducción a la Ingeniería del Software
+    chapters:
+      - file: I/que-es-ing-sw
+      - file: I/historia
+      - file: I/ejercicios
+  - caption: "II. Proceso software: Metodologías y ciclo de vida"
+    chapters:
+      - file: II/intro
+      - file: II/tradicionales
+      - file: II/agiles
+        sections:
+        - file: II/agiles/scrum
+        - file: II/agiles/xp
+        - file: II/agiles/kanban
 # - file: markdown
 # - file: notebooks
 # - file: markdown-notebooks
-  - file: cap-1
