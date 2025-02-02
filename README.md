@@ -1,6 +1,6 @@
 # Ingeniería del software
 
-Manual para la asignatura "Ingeniería del software" del grado en Ingeniería Informática.
+Manual para una asignatura de **Ingeniería del software** para estudiantes de grado (por ejemplo, grado en Ingeniería Informática).
 
 ## Uso
 
@@ -24,7 +24,7 @@ Para la publicación específicamente en GitHub y GitLab, el proyecto [cookiecut
 
 ## Contribuidores
 
-Damos la bienvenida y reconocemos todas las contribuciones. Puedes ver la lista de contribuyentes actuales en la [pestaña de contribuyentes](https://github.com/angellareo/manual_ings/graphs/contributors).
+Damos la bienvenida y reconocemos todas las contribuciones. Puedes ver la lista de contribuidores actuales en la [pestaña de contribuidores](https://github.com/angellareo/manual_ings/graphs/contributors).
 
 ## Créditos
 
