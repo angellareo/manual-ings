@@ -14,11 +14,27 @@ parts:
     chapters:
       - file: II/intro
       - file: II/tradicionales
+        sections:
+          - file: II/tradicionales/cascada
+          - file: II/tradicionales/cascada-it
+          - file: III/tradicionales/incremental
+          - file: II/tradicionales/iterativa
+          - file: II/tradicionales/incremental-it
+          - file: II/tradicionales/espiral
       - file: II/agiles
         sections:
         - file: II/agiles/scrum
         - file: II/agiles/xp
         - file: II/agiles/kanban
+      - file: II/user-centered
+        sections:
+        - file: II/user-centered/nielsen.md
+        - file: II/user-centered/ing-usabilidad.md
+        - file: II/user-centered/escenarios.md
+      - file: II/test-driven.md
+      #  sections:
+      - file: II/devops.md
+        
 # - file: markdown
 # - file: notebooks
 # - file: markdown-notebooks

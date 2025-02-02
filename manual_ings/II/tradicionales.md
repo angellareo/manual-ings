@@ -1,19 +1,8 @@
 # Metodologías tradicionales
 
-## Cascada
-Metodología en cascada.
-
-## Cascada con iteración
-Evolución de la metodología en cascada.
-
-## Incremental
-Metodología incremental.
-
-## Iterativa
-Metodología incremental.
-
-## Incremental-iterativa (unificada)
-Metodología incremental-iterativa (unificada).
-
-## Espiral
-Metodología en espiral.
+- [Metodología en cascada](./tradicionales/cascada.md)
+- [Metodología en cascada con iteración](./tradicionales/cascada-it.md)
+- [Metodología incremental](./tradicionales/incremental.md)
+- [Metodología iterativa](./tradicionales/iterativa.md)
+- [Metodología incremental-iterativa](./tradicionales/incremental-it.md)
+- [Metodología en espiral](./tradicionales/espiral.md)
