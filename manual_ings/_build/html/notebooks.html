@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="./" >
+<html lang="en" data-content_root="./" data-theme="light">
 
   <head>
     <meta charset="utf-8" />
@@ -13,8 +13,8 @@
   
   
   <script data-cfasync="false">
-    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
   <!--
     this give us a css class that will be invisible only if js is disabled
@@ -71,7 +71,7 @@
   </head>
   
   
-  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="light">
 
   
   
@@ -145,11 +145,9 @@
   
     
     
-      
     
-    
-    <img src="_static/logo.png" class="logo__image only-light" alt="Ingeniería del software - Home"/>
-    <img src="_static/logo.png" class="logo__image only-dark pst-js-only" alt="Ingeniería del software - Home"/>
+    <img src="_static/logo_ings.png" class="logo__image only-light" alt="Ingeniería del software - Home"/>
+    <img src="_static/logo_ings.png" class="logo__image only-dark pst-js-only" alt="Ingeniería del software - Home"/>
   
   
 </a></div>
@@ -170,7 +168,22 @@
                 </a>
             </li>
         </ul>
-        
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">I. Introducción a la Ingeniería del Software</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="I/que-es-ing-sw.html">¿Qué es la Ingeniería del Software?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="I/historia.html">Historia</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">II. Procesos y metodologías</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="II/tradicionales.html">Metodologías tradicionales</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="II/agiles.html">Metodologías ágiles</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="II/agiles/scrum.html">Scrum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="II/agiles/xp.html">eXtreme Programming (XP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="II/agiles/kanban.html">Kanban</a></li>
+</ul>
+</details></li>
+</ul>
+
     </div>
 </nav></div>
     </div>
@@ -418,7 +431,7 @@ For example, here’s some sample Matplotlib code:</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;contextlib.ExitStack at 0x7f9f384224b0&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;contextlib.ExitStack at 0x7f4ddc1d50a0&gt;
 </pre></div>
 </div>
 </div>
