@@ -64,7 +64,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Scrum" href="agiles/scrum.html" />
-    <link rel="prev" title="Metodologías tradicionales" href="tradicionales.html" />
+    <link rel="prev" title="Metodología en espiral" href="tradicionales/espiral.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -170,16 +170,36 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../I/que-es-ing-sw.html">¿Qué es la Ingeniería del Software?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../I/historia.html">Historia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../I/ejercicios.html">Repaso</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">II. Procesos y metodologías</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">II. Proceso software: Metodologías y ciclo de vida</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="tradicionales.html">Metodologías tradicionales</a></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Metodologías ágiles</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="agiles/scrum.html">Scrum</a></li>
-<li class="toctree-l2"><a class="reference internal" href="agiles/xp.html">eXtreme Programming (XP)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="agiles/kanban.html">Kanban</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introducción</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="tradicionales.html">Metodologías tradicionales</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/cascada.html">Cascada</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/cascada-it.html">Cascada con iteración</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/iterativa.html">Metodología iterativa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/incremental-it.html">Metodología incremental-iterativa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/espiral.html">Metodología en espiral</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Metodologías ágiles</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="agiles/scrum.html">Scrum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="agiles/kanban.html">Kanban</a></li>
+<li class="toctree-l2"><a class="reference internal" href="agiles/xp.html">eXtreme Programming (XP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="agiles/lean.html"><strong>LEAN Software Development</strong></a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="user-centered.html">Metodologías centradas en el usuario</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="user-centered/nielsen.html">Ingeniería de la Usabilidad de Nielsen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-centered/ing-usabilidad.html">Ingeniería de la Usabilidad:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-centered/escenarios.html">Desarrollo Basado en Escenarios</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="test-driven.html">Metodologías basadas en pruebas (<em>TDD</em>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="devops.html">Metodologías centradas en desarrollo y operaciones</a></li>
 </ul>
 
     </div>
@@ -386,13 +406,51 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="metodologias-agiles">
 <h1>Metodologías ágiles<a class="headerlink" href="#metodologias-agiles" title="Link to this heading">#</a></h1>
+<p>También conocidas como <strong>Agile</strong> se trata de un conjunto de principios y valores definidos en el <em>Manifiesto Ágil</em> (2001) que promueve la entrega incremental de software, la colaboración con el cliente y la capacidad de adaptación a cambios.</p>
+<p>No es, por tanto, una metodología, sino un marco conceptual para guiar metodologías y prácticas ágiles. Algunas de las metodologías Agile serían SCRUM, eXtreme Programming o Lean. <strong>XP</strong> es una metodología ágil con un fuerte enfoque en técnicas de programación, mientras que <strong>Lean</strong> busca eliminar desperdicios y maximizar la eficiencia en los procesos de desarrollo.</p>
+<p>Por otro lado, <strong>Design Sprint</strong> es un enfoque intensivo para diseñar y validar soluciones rápidamente dentro de las metodologías ágiles.</p>
 <section id="id1">
 <h2>Metodologías ágiles<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
+<p>Algunas metodologías ágiles serían</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="agiles/scrum.html"><span class="std std-doc">SCRUM</span></a></p></li>
-<li><p><a class="reference internal" href="agiles/xp.html"><span class="std std-doc">eXtreme Programming</span></a></p></li>
 <li><p><a class="reference internal" href="agiles/kanban.html"><span class="std std-doc">Kanban</span></a></p></li>
+<li><p><a class="reference internal" href="agiles/xp.html"><span class="std std-doc">eXtreme Programming</span></a></p></li>
+<li><p><a class="reference internal" href="agiles/lean.html"><span class="std std-doc">LEAN</span></a></p></li>
 </ul>
+<p>Un resumen de sus diferencias:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Enfoque</p></th>
+<th class="head"><p>Propósito Principal</p></th>
+<th class="head"><p>Características Clave</p></th>
+<th class="head"><p>Diferencia Principal</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>SCRUM</strong></p></td>
+<td><p>Metodología ágil basada en iteraciones y roles definidos</p></td>
+<td><p>Sprints, roles (Scrum Master, Product Owner, Dev Team), reuniones diarias</p></td>
+<td><p>Enfoque estructurado con ciclos de trabajo fijos (Sprints)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Kanban</strong></p></td>
+<td><p>Método visual para gestionar el flujo de trabajo</p></td>
+<td><p>Tableros visuales, enfoque en el flujo continuo, Work In Progress (WIP) limitado</p></td>
+<td><p>No tiene iteraciones fijas, optimiza la entrega continua</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>XP</strong></p></td>
+<td><p>Metodología ágil centrada en calidad de código</p></td>
+<td><p>TDD, programación en pareja, integración continua</p></td>
+<td><p>Metodología concreta con énfasis en prácticas técnicas</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Lean Software Development</strong></p></td>
+<td><p>Optimización de procesos de desarrollo</p></td>
+<td><p>Eliminación de desperdicios, eficiencia, aprendizaje continuo</p></td>
+<td><p>Enfocado en optimización y eficiencia, más que en iteraciones</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 <!-- 
 ## LEAN Software Development
 ## Design Sprint
@@ -444,12 +502,12 @@ Puedes usar cualquier lenguaje de programación, pero se recomienda Python o Jav
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="tradicionales.html"
+       href="tradicionales/espiral.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Metodologías tradicionales</p>
+        <p class="prev-next-title">Metodología en espiral</p>
       </div>
     </a>
     <a class="right-next"

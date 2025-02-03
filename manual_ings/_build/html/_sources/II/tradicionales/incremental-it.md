@@ -1,4 +1,4 @@
-# incremental-iterativa
+# Metodología incremental-iterativa
 
 También llamado **proceso unificado de desarrollo de software**, esta metodología parte de una implementación parcial del sistema global sobre la que se va aumentando la funcionalidad del sistema (incorporación de requisitos).
 
@@ -7,15 +7,4 @@ No obstante, en este modelo se definen al inicio los requerimientos que se imple
 El producto provisional de cada desarrollo será usado en el entorno operativo.
 
 ## Ventajas
-- La principal ventaja es que se obtiene un software operativo de manera rápida.
-- Combina lo mejor de ambos modelos: entregas funcionales y mejora continua.
-- Reduce riesgos y permite retroalimentación frecuente.
-- Se adapta mejor a cambios en requisitos.
-
-## Inconvenientes
-- Mayor complejidad en la gestión del proyecto.
-- Puede haber sobrecostos si no se controla bien la iteración.
-- Requiere un equipo experimentado en gestión de iteraciones.
-
-## Referencias
-- [Proceso unificado](https://es.wikipedia.org/wiki/Proceso_unificado)
+La principal ventaja es que se obtiene un software operativo de manera rápida.

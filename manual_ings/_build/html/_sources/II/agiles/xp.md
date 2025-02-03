@@ -25,6 +25,6 @@ Entre sus prácticas clave destacan:
 5. **Dependencia del cliente**: requiere una interacción frecuente con el cliente, lo que puede ser complicado en ciertos entornos.  
 
 ## **Referencias**  
-- Beck, K. (1999). *Extreme Programming Explained: Embrace Change*. Addison-Wesley.  
-- Fowler, M. (1999). *Refactoring: Improving the Design of Existing Code*. Addison-Wesley.  
-- Shore, J., & Warden, S. (2008). *The Art of Agile Development*. O'Reilly Media.  
+- Beck, K. (1999). *Extreme Programming Explained: Embrace Change*. Addison-Wesley.
+- Fowler, M. (1999). *Refactoring: Improving the Design of Existing Code*. Addison-Wesley.
+- Shore, J., & Warden, S. (2008). *The Art of Agile Development*. O'Reilly Media.

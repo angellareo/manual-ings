@@ -63,8 +63,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'II/tradicionales';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Metodologías ágiles" href="agiles.html" />
-    <link rel="prev" title="Historia" href="../I/historia.html" />
+    <link rel="next" title="Cascada" href="tradicionales/cascada.html" />
+    <link rel="prev" title="Introducción" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -170,16 +170,38 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../I/que-es-ing-sw.html">¿Qué es la Ingeniería del Software?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../I/historia.html">Historia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../I/ejercicios.html">Repaso</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">II. Procesos y metodologías</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">II. Proceso software: Metodologías y ciclo de vida</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Metodologías tradicionales</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="agiles.html">Metodologías ágiles</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="agiles/scrum.html">Scrum</a></li>
-<li class="toctree-l2"><a class="reference internal" href="agiles/xp.html">eXtreme Programming (XP)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="agiles/kanban.html">Kanban</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introducción</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Metodologías tradicionales</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/cascada.html">Cascada</a></li>
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/cascada-it.html">Cascada con iteración</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/incremental.html">Metodología incremental</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/iterativa.html">Metodología iterativa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/incremental-it.html">Metodología incremental-iterativa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tradicionales/espiral.html">Metodología en espiral</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="agiles.html">Metodologías ágiles</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="agiles/scrum.html">Scrum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="agiles/kanban.html">Kanban</a></li>
+<li class="toctree-l2"><a class="reference internal" href="agiles/xp.html">eXtreme Programming (XP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="agiles/lean.html"><strong>LEAN Software Development</strong></a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="user-centered.html">Metodologías centradas en el usuario</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="user-centered/nielsen.html">Ingeniería de la Usabilidad de Nielsen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-centered/ing-usabilidad.html">Ingeniería de la Usabilidad:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-centered/escenarios.html">Desarrollo Basado en Escenarios</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="test-driven.html">Metodologías basadas en pruebas (<em>TDD</em>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="devops.html">Metodologías centradas en desarrollo y operaciones</a></li>
 </ul>
 
     </div>
@@ -372,12 +394,8 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cascada">Cascada</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cascada-con-iteracion">Cascada con iteración</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#incremental">Incremental</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iterativa">Iterativa</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#incremental-iterativa-unificada">Incremental-iterativa (unificada)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#espiral">Espiral</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparacion-de-metodologias-tradicionales"><strong>Comparación de Metodologías Tradicionales</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusiones"><strong>Conclusiones</strong></a></li>
 </ul>
             </nav>
         </div>
@@ -391,30 +409,73 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="metodologias-tradicionales">
 <h1>Metodologías tradicionales<a class="headerlink" href="#metodologias-tradicionales" title="Link to this heading">#</a></h1>
-<section id="cascada">
-<h2>Cascada<a class="headerlink" href="#cascada" title="Link to this heading">#</a></h2>
-<p>Metodología en cascada.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="tradicionales/cascada.html"><span class="std std-doc">Metodología en cascada</span></a></p></li>
+<li><p><a class="reference internal" href="tradicionales/cascada-it.html"><span class="std std-doc">Metodología en cascada con iteración</span></a></p></li>
+<li><p><a class="reference internal" href="tradicionales/incremental.html"><span class="std std-doc">Metodología incremental</span></a></p></li>
+<li><p><a class="reference internal" href="tradicionales/iterativa.html"><span class="std std-doc">Metodología iterativa</span></a></p></li>
+<li><p><a class="reference internal" href="tradicionales/incremental-it.html"><span class="std std-doc">Metodología incremental-iterativa</span></a></p></li>
+<li><p><a class="reference internal" href="tradicionales/espiral.html"><span class="std std-doc">Metodología en espiral</span></a></p></li>
+</ul>
+<p>Tabla comparativa con las diferencias, ventajas e inconvenientes de las principales <strong>metodologías tradicionales</strong> en desarrollo de software:</p>
+<hr class="docutils" />
+<section id="comparacion-de-metodologias-tradicionales">
+<h2><strong>Comparación de Metodologías Tradicionales</strong><a class="headerlink" href="#comparacion-de-metodologias-tradicionales" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Metodología</strong></p></th>
+<th class="head"><p><strong>Descripción</strong></p></th>
+<th class="head"><p><strong>Ventajas</strong></p></th>
+<th class="head"><p><strong>Inconvenientes</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Cascada</strong></p></td>
+<td><p>Modelo secuencial en fases (requisitos → diseño → implementación → pruebas → mantenimiento).</p></td>
+<td><p>- Claridad en la planificación.<br>- Fácil gestión del proyecto.<br>- Documentación detallada.</p></td>
+<td><p>- Difícil adaptación a cambios.<br>- Riesgo alto si hay errores en fases tempranas.<br>- Producto funcional solo al final.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Cascada con iteración</strong></p></td>
+<td><p>Similar a cascada, pero permite retroceder a fases anteriores en caso de errores o cambios.</p></td>
+<td><p>- Más flexible que el modelo cascada puro.<br>- Reduce riesgos al poder corregir fallos en fases previas.</p></td>
+<td><p>- Puede generar retrasos si hay demasiadas iteraciones.<br>- Sigue siendo rígido en comparación con metodologías ágiles.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Incremental</strong></p></td>
+<td><p>El sistema se desarrolla y entrega en partes funcionales, cada una agregando más características.</p></td>
+<td><p>- Se obtiene software funcional desde las primeras entregas.<br>- Menos riesgo que en cascada.<br>- Facilita la detección temprana de problemas.</p></td>
+<td><p>- Planificación más compleja.<br>- Puede haber problemas de integración entre incrementos.<br>- No siempre se identifican bien los requisitos desde el inicio.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Iterativa</strong></p></td>
+<td><p>Se desarrolla un sistema inicial completo pero incompleto y se mejora en ciclos sucesivos.</p></td>
+<td><p>- Flexibilidad ante cambios.<br>- Permite la retroalimentación temprana de los usuarios.<br>- Detecta problemas antes de la versión final.</p></td>
+<td><p>- Puede ser difícil definir criterios de finalización.<br>- Requiere una gestión continua del proceso.<br>- Aumento de costos si hay demasiadas iteraciones.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Incremental-Iterativa (Unificada)</strong></p></td>
+<td><p>Combina el modelo incremental (desarrollo en partes) con iterativo (mejoras sucesivas en cada parte).</p></td>
+<td><p>- Combina lo mejor de ambos modelos: entregas funcionales y mejora continua.<br>- Reduce riesgos y permite retroalimentación frecuente.<br>- Se adapta mejor a cambios en requisitos.</p></td>
+<td><p>- Mayor complejidad en la gestión del proyecto.<br>- Puede haber sobrecostos si no se controla bien la iteración.<br>- Requiere un equipo experimentado en gestión de iteraciones.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Espiral</strong></p></td>
+<td><p>Basado en ciclos de planificación, desarrollo, evaluación y gestión de riesgos. Se repite hasta lograr un sistema estable.</p></td>
+<td><p>- Gestión de riesgos efectiva.<br>- Adecuado para proyectos grandes y complejos.<br>- Permite incorporar mejoras gradualmente.</p></td>
+<td><p>- Costoso en tiempo y recursos.<br>- Difícil de gestionar en equipos pequeños.<br>- No siempre es necesario aplicar un enfoque tan estructurado.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
 </section>
-<section id="cascada-con-iteracion">
-<h2>Cascada con iteración<a class="headerlink" href="#cascada-con-iteracion" title="Link to this heading">#</a></h2>
-<p>Evolución de la metodología en cascada.</p>
+<section id="conclusiones">
+<h2><strong>Conclusiones</strong><a class="headerlink" href="#conclusiones" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Cascada</strong> y <strong>Cascada con iteración</strong> son más rígidos y adecuados para proyectos con requisitos estables.</p></li>
+<li><p><strong>Incremental</strong> e <strong>Iterativo</strong> ofrecen más flexibilidad y entregas funcionales antes de la versión final.</p></li>
+<li><p><strong>Incremental-Iterativa (Unificada)</strong> combina lo mejor de ambos modelos, siendo ideal para proyectos con cambios frecuentes.</p></li>
+<li><p><strong>Espiral</strong> es el más adecuado para proyectos de alto riesgo y gran escala, pero implica mayor costo y complejidad.</p></li>
+</ul>
 </section>
-<section id="incremental">
-<h2>Incremental<a class="headerlink" href="#incremental" title="Link to this heading">#</a></h2>
-<p>Metodología incremental.</p>
-</section>
-<section id="iterativa">
-<h2>Iterativa<a class="headerlink" href="#iterativa" title="Link to this heading">#</a></h2>
-<p>Metodología incremental.</p>
-</section>
-<section id="incremental-iterativa-unificada">
-<h2>Incremental-iterativa (unificada)<a class="headerlink" href="#incremental-iterativa-unificada" title="Link to this heading">#</a></h2>
-<p>Metodología incremental-iterativa (unificada).</p>
-</section>
-<section id="espiral">
-<h2>Espiral<a class="headerlink" href="#espiral" title="Link to this heading">#</a></h2>
-<p>Metodología en espiral.</p>
-</section>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -448,20 +509,20 @@
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../I/historia.html"
+       href="intro.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Historia</p>
+        <p class="prev-next-title">Introducción</p>
       </div>
     </a>
     <a class="right-next"
-       href="agiles.html"
+       href="tradicionales/cascada.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Metodologías ágiles</p>
+        <p class="prev-next-title">Cascada</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -482,12 +543,8 @@
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cascada">Cascada</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cascada-con-iteracion">Cascada con iteración</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#incremental">Incremental</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iterativa">Iterativa</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#incremental-iterativa-unificada">Incremental-iterativa (unificada)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#espiral">Espiral</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparacion-de-metodologias-tradicionales"><strong>Comparación de Metodologías Tradicionales</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusiones"><strong>Conclusiones</strong></a></li>
 </ul>
   </nav></div>
 

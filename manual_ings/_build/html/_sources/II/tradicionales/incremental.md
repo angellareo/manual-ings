@@ -1,4 +1,4 @@
-# Incremental
+# Metodología incremental
 
 El sistema se desarrolla y entrega en partes funcionales, cada una agregando más características.
 
