@@ -1,1 +1,0 @@
-# Metodologías basadas en pruebas (*TDD*)

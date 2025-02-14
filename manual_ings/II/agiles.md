@@ -22,6 +22,11 @@ Un resumen de sus diferencias:
 | **XP** | Metodología ágil centrada en calidad de código | TDD, programación en pareja, integración continua | Metodología concreta con énfasis en prácticas técnicas |
 | **Lean Software Development** | Optimización de procesos de desarrollo | Eliminación de desperdicios, eficiencia, aprendizaje continuo | Enfocado en optimización y eficiencia, más que en iteraciones |
 
+
+## Referencias
+
+[Manifiesto por el Desarrollo Ágil de Software](https://agilemanifesto.org/iso/es/manifesto.html)
+
 <!-- 
 ## LEAN Software Development
 ## Design Sprint
