@@ -1,2 +1,0 @@
-# Desarrollo Basado en Escenarios
-se prioriza el análisis crítico de los escenarios que sucesivamente se van desarrollando y mejorando para inspeccionar todas las características importantes de las situaciones representadas, y el impacto de éstas en las experiencias personales de quienes utilizarán dichos sistemas

@@ -1,3 +1,0 @@
-# Metodología iterativa
-
-Metodología iterativa.
