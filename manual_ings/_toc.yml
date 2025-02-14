@@ -29,7 +29,6 @@ parts:
         - file: II/agiles/lean
       - file: II/user-centered
         sections:
-        - file: II/user-centered/nielsen.md
         - file: II/user-centered/ing-usabilidad.md
         - file: II/user-centered/escenarios.md
       - file: II/test-driven.md

@@ -7,8 +7,8 @@ Entre sus prácticas clave destacan:
 - **Desarrollo dirigido por pruebas (TDD)**: primero se escriben las pruebas y luego el código necesario para pasarlas.  
 - **Integración continua**: el código se fusiona y prueba frecuentemente para evitar problemas de integración.  
 - **Refactorización continua**: se mejora constantemente el código para mantenerlo limpio y eficiente.  
-- **Simplicidad**: solo se implementa lo necesario, evitando sobreingeniería.  
-- **Pequeñas entregas frecuentes**: se entrega software funcional de manera continua para obtener retroalimentación temprana.  
+- **Simplicidad**: solo se implementa lo necesario, evitando sobreingeniería.
+- **Pequeñas entregas frecuentes**: se entrega software funcional de manera continua para obtener retroalimentación temprana.
 
 ## **Ventajas**  
 1. **Alta calidad del software**: el uso de TDD y la programación en pareja reducen errores.  
