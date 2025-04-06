@@ -1,4 +1,4 @@
-# incremental-iterativa
+# Incremental-iterativa: proceso unificado
 
 También llamado **proceso unificado de desarrollo de software**, esta metodología parte de una implementación parcial del sistema global sobre la que se va aumentando la funcionalidad del sistema (incorporación de requisitos).
 

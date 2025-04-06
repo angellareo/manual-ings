@@ -1,4 +1,4 @@
-# Metodología en espiral
+# Espiral
 
 La metodología en espiral prioriza la gestión de riesgos. Está basado en ciclos de planificación, desarrollo, evaluación y gestión de riesgos. Estos ciclos se repiten hasta lograr un sistema estable. 
 

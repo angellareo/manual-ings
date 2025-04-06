@@ -7,10 +7,12 @@ parts:
   #- file: agradecimientos
   - caption: I. Introducción a la Ingeniería del Software
     chapters:
+      - file: I/intro
+      - file: I/definicion-sw
       - file: I/que-es-ing-sw
       - file: I/historia
       - file: I/ejercicios
-  - caption: "II. Proceso software: Metodologías y ciclo de vida"
+  - caption: "II. Proceso de desarrollo de software: Metodologías y ciclo de vida"
     chapters:
       - file: II/intro
       - file: II/tradicionales
@@ -35,6 +37,10 @@ parts:
       #  sections:
       - file: II/devops.md
       #  sections:
+  - caption: "VII. Pruebas de software"
+    chapters:
+      - file: VII/intro
+      
         
 # - file: markdown
 # - file: notebooks
