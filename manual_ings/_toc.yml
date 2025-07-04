@@ -4,8 +4,12 @@
 format: jb-book
 root: intro
 parts:
-  #- file: agradecimientos
-  - caption: I. Introducción a la Ingeniería del Software
+  - caption: "Prefacio"
+    chapters:
+    - file: index
+    - file: prefacio/autor
+    - file: prefacio/agradecimientos
+  - caption: "I. Introducción a la Ingeniería del Software"
     chapters:
       - file: I/intro
       - file: I/definicion-sw
