@@ -1,4 +1,4 @@
-## Cascada
+# Cascada
 
 Ordena rigurosamente las etapas del proceso para el desarrollo de software, de tal forma que el inicio de cada etapa debe esperar a la finalización de la etapa anterior.
 
