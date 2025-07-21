@@ -48,3 +48,11 @@ sphinx:
   config:
     html_context:
       default_mode: light
+  extra_extensions:
+    - sphinxcontrib.mermaid  
+    # - sphinxcontrib.wavedrom
+    # - sphinxcontrib.plantuml
+
+parse:
+  myst_enable_extensions:
+    - footnote

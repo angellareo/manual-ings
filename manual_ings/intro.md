@@ -10,6 +10,3 @@ Se trata de un [libro ejecutable](https://executablebooks.org) para utilizar com
 
 Si te interesa contribuir [puedes pasarte por el repositorio](https://github.com/angellareo/manual-ings) y consultar la [guía de contribuciones](https://github.com/angellareo/manual-ings/blob/main/CONTRIBUTING.md).
 
-## Índice
-```{tableofcontents}
-```
