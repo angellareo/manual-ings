@@ -31,7 +31,7 @@
         ]
     },
     {
-        "question": "¿En qué año se introdujo formalmente por primera vez el término 'Ingeniería del Software' en la conferencia de la OTAN?",
+        "question": "¿En qué año se introdujo formalmente por primera vez el término 'Ingeniería del Software' en una conferencia de la OTAN?",
         "type": "numeric",
         "answers": [
           {
@@ -80,6 +80,32 @@
             "type": "default",
             "feedback": "No es correcto. Intenta recordar cuándo la crisis del software llevó a formalizar las prácticas de desarrollo."
           }
+        ]
+      },
+      {
+        "question": "¿Qué es la crisis del software?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Un período de ineficiencia en el desarrollo de software",
+                "correct": true,
+                "feedback": "Correcto. La crisis del software se refiere a la ineficiencia y problemas en el desarrollo de software durante las décadas de 1960 y 1970."
+            },
+            {
+                "answer": "Un evento histórico de la OTAN",
+                "correct": false,
+                "feedback": "Incorrecto. Aunque la conferencia de la OTAN en 1968 fue importante, la crisis del software se refiere a problemas más amplios en la industria del software."
+            },
+            {
+                "answer": "Un término acuñado por la IEEE",
+                "correct": false,
+                "feedback": "Incorrecto. Aunque la IEEE ha contribuido al desarrollo de estándares, el término 'crisis del software' no fue acuñado por ellos."
+            },
+            {
+                "answer": "Un fenómeno que llevó a la creación de la Ingeniería del Software",
+                "correct": true,
+                "feedback": "Correcto. La crisis del software impulsó la necesidad de formalizar las prácticas de desarrollo y establecer la Ingeniería del Software como disciplina."
+            }
         ]
       }
 ]

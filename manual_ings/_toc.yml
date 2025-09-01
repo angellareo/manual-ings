@@ -6,7 +6,6 @@ root: intro
 parts:
   - caption: "Prefacio"
     chapters:
-    - file: index
     - file: prefacio/autor
     - file: prefacio/agradecimientos
   - caption: "I. Introducción a la Ingeniería del Software"
@@ -44,8 +43,4 @@ parts:
   - caption: "VII. Pruebas de software"
     chapters:
       - file: VII/intro
-      
-        
-# - file: markdown
-# - file: notebooks
-# - file: markdown-notebooks
+      - file: VII/ej-comp-ciclomatica

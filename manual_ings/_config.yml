@@ -56,3 +56,8 @@ sphinx:
 parse:
   myst_enable_extensions:
     - footnote
+
+execute:
+  execute_notebooks: force
+  allow_errors: false
+  save_widgets: true

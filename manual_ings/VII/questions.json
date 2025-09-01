@@ -1,0 +1,23 @@
+[
+    {
+        "question": "Imagina que un equipo ha definido un conjunto de métricas de calidad (por ejemplo, densidad de defectos, cobertura de pruebas y complejidad ciclomática). ¿Cuál sería la mejor forma de utilizarlas para mejorar la calidad del producto en desarrollo?",
+        "type": "many_choice",
+        "answers": [
+          {
+              "answer": "Publicar mensualmente un informe con los valores de cada métrica para que la dirección los revise.",
+              "correct": false,
+              "feedback": "La opción correcta es integrar las métricas en la integración continua para detectar y corregir problemas en tiempo real."
+          },
+          {
+              "answer": "Integrar la recogida de métricas en la integración continua y fijar umbrales que activen alertas y acciones correctivas automáticas.",
+              "correct": true,
+              "feedback": "La opción correcta es integrar las métricas en la integración continua para detectar y corregir problemas en tiempo real."
+          },
+          {
+              "answer": "Comparar las métricas obtenidas con un estándar de la industria al finalizar el proyecto, para evaluar el desempeño global del equipo.",
+              "correct": false,
+              "feedback": "La opción correcta es integrar las métricas en la integración continua para detectar y corregir problemas en tiempo real."
+          }
+        ]
+    }
+]
