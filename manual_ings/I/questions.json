@@ -107,5 +107,31 @@
                 "feedback": "Correcto. La crisis del software impulsó la necesidad de formalizar las prácticas de desarrollo y establecer la Ingeniería del Software como disciplina."
             }
         ]
+      },
+      {
+        "question": "¿Qué tipo de software es Claude, el chatbot de Anthropic?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Software embebido o incrustado",
+                "correct": false,
+                "feedback": "Incorrecto. Un software embebido es aquel que está integrado en dispositivos físicos como electrodomésticos o automóviles."
+            },
+            {
+                "answer": "Software de sistema",
+                "correct": false,
+                "feedback": "Incorrecto. El software de sistema incluye sistemas operativos y utilidades que gestionan el hardware."
+            },
+            {
+                "answer": "Software de aplicación",
+                "correct": false,
+                "feedback": "Incorrecto. El software de aplicación son programas que se ejecutan localmente y están diseñados para resolver una necesidad genérica aplicable en campos variados (el diseño, el ocio o la ofimática)."
+            },
+            {
+                "answer": "Software de aprendizaje automático",
+                "correct": true,
+                "feedback": "Correcto. Claude es un modelo de lenguaje desarrollado por Anthropic y ofrecido como chatbot, basado en técnicas de aprendizaje automático profundo."
+            }
+        ]
       }
 ]

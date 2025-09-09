@@ -10,7 +10,7 @@ Podemos definir el software como un conjunto de tres elementos:
 Software = Programa + Datos + Documentación
 `````
 
-El software es un **elemento lógico**, no físico. Por tanto, es **desarrollado** y no fabricado. Aunque cada vez más (gracias a la aplicación de la ingeniería del software) se avanza hacia diseños modulares, con componentes reutilizables, la mayor parte del software **se diseña a medida**. Además, el software está sujeto a actualizaciones (en seguridad o infraestructura), a avances sociales y cambios legislativos o, incluso, a modas estéticas. Como consecuencia, el software **se deteriora**. Decimos, por ello, que el software es un **proceso vivo** y en **constante evolución**.
+El software es un **elemento lógico**, no físico. Por tanto, es **desarrollado** y no fabricado. Aunque cada vez más (gracias a la aplicación de la Ingeniería del software) se avanza hacia diseños modulares, con componentes reutilizables, la mayor parte del software **se diseña a medida**. Además, el software está sujeto a actualizaciones (en seguridad o infraestructura), a avances sociales y cambios legislativos o, incluso, a modas estéticas. Como consecuencia, el software **se deteriora**. Decimos, por ello, que el software es un **proceso vivo** y en **constante evolución**.
 
 ## Tipos de software
 

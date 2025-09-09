@@ -1,18 +1,19 @@
 # Metodologías ágiles
 
-También conocidas como **Agile** se trata de un conjunto de principios y valores definidos en el *Manifiesto Ágil* (2001) que promueve la entrega incremental de software, la colaboración con el cliente y la capacidad de adaptación a cambios. 
+En 2001, un grupo de destacados desarrolladores de software firmaron el [«Manifiesto para el desarrollo ágil de software»](https://agilemanifesto.org/iso/es/manifesto.html), en el que defendían 
+> **Individuos e interacciones** sobre procesos y herramientas
+> **Software funcionando** sobre documentación extensiva
+> **Colaboración con el cliente** sobre negociación contractual
+> **Respuesta ante el cambio** sobre seguir un plan
 
-No es, por tanto, una metodología, sino un marco conceptual para guiar metodologías y prácticas ágiles. Algunas de las metodologías Agile serían SCRUM, eXtreme Programming o Lean. **XP** es una metodología ágil con un fuerte enfoque en técnicas de programación, mientras que **Lean** busca eliminar desperdicios y maximizar la eficiencia en los procesos de desarrollo. 
+Sus propuestas, también conocidas como **Agile** son un [conjunto de principios](https://agilemanifesto.org/iso/es/principles.html) que promueven la entrega iterativa, incremental y evolutiva de software, la colaboración con el cliente y la capacidad de adaptación a cambios.
 
-Por otro lado, **Design Sprint** es un enfoque intensivo para diseñar y validar soluciones rápidamente dentro de las metodologías ágiles.
+Agile no es en sí mismo, por tanto, una metodología, sino un marco conceptual para guiar metodologías y prácticas ligeras para el desarrollo de software. Algunas de las metodologías más relevantes que implementan las metodologías ágiles son [SCRUM](./agiles/scrum.md), [eXtreme Programming (XP)](./agiles/xp.md), [Kanban](./agiles/kanban.md) o [Lean]((./agiles/lean.md)). La Agile Alliance mantiene un [Glosario Agile](https://agilealliance.org/agile101/agile-glossary/),​ un compendio de código abierto y en constante evolución de las definiciones funcionales de las prácticas, términos y elementos ágiles, junto con interpretaciones y directrices sobre experiencias de la comunidad mundial de profesionales de Agile.
+<!--**XP** es una metodología ágil con un fuerte enfoque en técnicas de programación, mientras que **Lean** busca eliminar desperdicios y maximizar la eficiencia en los procesos de desarrollo. Por otro lado, **Design Sprint** es un enfoque intensivo para diseñar y validar soluciones rápidamente dentro de las metodologías ágiles. -->
+
+
 
 ## Metodologías ágiles
-
-Algunas metodologías ágiles serían
-- [SCRUM](./agiles/scrum.md)
-- [Kanban](./agiles/kanban.md)
-- [eXtreme Programming](./agiles/xp.md)
-- [LEAN](./agiles/lean.md)
 
 Un resumen de sus diferencias:
 | Enfoque | Propósito Principal | Características Clave | Diferencia Principal |

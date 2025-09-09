@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Elige la metodología más adecuada para un proyecto con requisitos cambiantes, entregas frecuentes y bajo riesgo.",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Cascada",
+                "correct": false,
+                "feedback": "Incorrecto. La metodología en cascada es rígida y no se adapta bien a cambios frecuentes."
+            },
+            {
+                "answer": "Espiral",
+                "correct": false,
+                "feedback": "Incorrecto, aunque la espiral permite iteraciones, no es la más adecuada si el riesgo es bajo."
+            },
+            {
+                "answer": "Incremental",
+                "correct": false,
+                "feedback": "Incorrecto. Aunque el modelo incremental permite entregas parciales, no es tan flexible como la espiral."
+            },
+            {
+                "answer": "Iterativa",
+                "correct": true,
+                "feedback": "Correcto. La metodología iterativa permite adaptarse a cambios y entregar valor frecuentemente."
+            }
+        ]
+    }
+]

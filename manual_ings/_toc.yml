@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 #           and https://jupyterbook.org/en/stable/structure/toc.html
 format: jb-book
-root: intro
+root: index
 parts:
   - caption: "Prefacio"
     chapters:
@@ -21,7 +21,6 @@ parts:
       - file: II/tradicionales
         sections:
           - file: II/tradicionales/cascada
-          - file: II/tradicionales/cascada-it
           - file: II/tradicionales/incremental
           - file: II/tradicionales/iterativa
           - file: II/tradicionales/incremental-it
@@ -32,15 +31,33 @@ parts:
         - file: II/agiles/kanban
         - file: II/agiles/xp
         - file: II/agiles/lean
-      - file: II/user-centered
+      - file: II/emergentes
         sections:
-        - file: II/user-centered/ing-usabilidad.md
-        - file: II/user-centered/escenarios.md
-      - file: II/test-driven.md
-      #  sections:
-      - file: II/devops.md
-      #  sections:
+        - file: II/emergentes/devops
+        - file: II/emergentes/tdd
+        - file: II/emergentes/user-centered
+  - caption: "III. Planificación"
+    chapters:
+      - file: III/intro
+  - caption: "IV. Análisis y especificación de requisitos"
+    chapters:
+      - file: IV/intro
+  - caption: "V. Diseño de software"
+    chapters:
+      - file: V/intro
+  - caption: "VI. Implementación y operación"
+    chapters:
+      - file: VI/intro
   - caption: "VII. Pruebas de software"
     chapters:
       - file: VII/intro
       - file: VII/ej-comp-ciclomatica
+  - caption: "VIII. Mantenimiento de software"
+    chapters:
+      - file: VIII/intro
+  - caption: "IX. Gestión de configuraciones"
+    chapters:
+      - file: IX/intro
+  - caption: "X. Aseguramiento de la calidad"
+    chapters:
+      - file: X/intro

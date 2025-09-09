@@ -1,3 +1,6 @@
+# Desarrollo Basado en Escenarios
+se prioriza el análisis crítico de los escenarios que sucesivamente se van desarrollando y mejorando para inspeccionar todas las características importantes de las situaciones representadas, y el impacto de éstas en las experiencias personales de quienes utilizarán dichos sistemas
+
 # Ingeniería de la Usabilidad
 
 La **Ingeniería de la Usabilidad** es una metodología de desarrollo de software que prioriza la experiencia del usuario a lo largo de todo el proceso de diseño y construcción del sistema. Su objetivo es garantizar que los productos sean eficientes, intuitivos y accesibles, minimizando errores y maximizando la satisfacción del usuario.  

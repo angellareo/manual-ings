@@ -53,10 +53,6 @@ sphinx:
     # - sphinxcontrib.wavedrom
     # - sphinxcontrib.plantuml
 
-parse:
-  myst_enable_extensions:
-    - footnote
-
 execute:
   execute_notebooks: force
   allow_errors: false

@@ -1,4 +1,4 @@
-### **LEAN Software Development**  
+### LEAN Software Development
 
 #### **Descripción**  
 Lean Software Development (LSD) es un enfoque ágil basado en los principios de **Lean Manufacturing**, originado en el sistema de producción de Toyota. Su objetivo es optimizar el desarrollo de software eliminando desperdicios, mejorando la eficiencia y entregando valor al cliente de la manera más rápida posible.  
