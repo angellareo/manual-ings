@@ -36,14 +36,14 @@ De acuerdo al [estándar ISO/IEC 12207](https://es.wikipedia.org/wiki/ISO/IEC_12
         - Pruebas del software.
     ```
 
-Históricamente, se ha dividido el **proceso software** en **6 fases**, lo que se conoce como **ciclo de vida software**:
-- 1. Planificación y actividades tempranas
-- 2. Análisis
-- 3. Diseño
-- 4. Codificación
-- 5. Pruebas
-- 6. Despliegue
-- 7. Mantenimiento
+Históricamente, se ha dividido el **proceso software** en **6 fases** más una fase inicial de planificación, lo que se conoce como **ciclo de vida software**:
+- 0. Planificación y actividades tempranas
+- 1. Análisis
+- 2. Diseño
+- 3. Codificación
+- 4. Pruebas
+- 5. Despliegue
+- 6. Mantenimiento
 
 Como hemos visto, existe una gran variedad de sistemas software (drivers de dispositivos, aplicaciones móviles o web, suites de ofimática o diseño...). Por ello, aunque uno de los objetivos de la Ingeniería del Software era unificar criterios para convertir el desarrollo de software en un proceso industrial universalizable, lo cierto es que no existe un proceso software aplicable a todos los casos. Es responsabilidad del Ingeniero de Software establecer la metodología más apropiado a utilizar en un determinado proyecto.
 

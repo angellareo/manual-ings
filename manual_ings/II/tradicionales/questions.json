@@ -1,5 +1,83 @@
 [
     {
+        "question": "Una ONG necesita una aplicación para gestionar voluntarios y donaciones. El proyecto se desarrolla entregando versiones funcionales parciales, que van incorporando nuevas funciones (como registro de voluntarios, gestión de donaciones, informes) en cada entrega, de forma acumulativa hasta completar el sistema. ¿Qué metodología se ha usado en este proyecto?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Cascada",
+                "correct": false,
+                "feedback": "Incorrecto. La cascada no contempla entregas parciales acumulativas."
+            },
+            {
+                "answer": "Iterativa",
+                "correct": false,
+                "feedback": "Incorrecto. La iterativa repite ciclos de desarrollo y revisión, pero no se centra en construir incrementos completos acumulativos."
+            },
+            {
+                "answer": "Espiral",
+                "correct": false,
+                "feedback": "Incorrecto. La espiral enfatiza la gestión del riesgo y la planificación detallada en cada ciclo."
+            },
+            {
+                "answer": "Incremental",
+                "correct": true,
+                "feedback": "Correcto. El modelo incremental construye el sistema por entregas parciales funcionales que se van acumulando."
+            }
+        ]
+    },
+    {
+        "question": "Un organismo de la administración pública encarga una aplicación que integre un modelo de lenguaje (LLM) para mejorar la atención ciudadana. El proyecto se desarrolla repitiendo ciclos de construcción, prueba y retroalimentación, en los que se revisa y ajusta el sistema en cada iteración hasta alcanzar la solución final. ¿Qué metodología se ha usado en este proyecto?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Cascada",
+                "correct": false,
+                "feedback": "Incorrecto. La cascada no permite revisiones y ajustes frecuentes en cada ciclo."
+            },
+            {
+                "answer": "Incremental",
+                "correct": false,
+                "feedback": "Incorrecto. El incremental entrega módulos completos y acumulativos, más que centrarse en la retroalimentación cíclica."
+            },
+            {
+                "answer": "Espiral",
+                "correct": false,
+                "feedback": "Incorrecto. La espiral pone especial énfasis en el análisis de riesgos en cada iteración."
+            },
+            {
+                "answer": "Iterativa",
+                "correct": true,
+                "feedback": "Correcto. La metodología iterativa consiste en repetir ciclos de construcción y mejora hasta alcanzar el producto final."
+            }
+        ]
+    },
+    {
+        "question": "Una empresa de gestión medioambiental desarrolla una aplicación compleja para la gestión de una planta industrial de reciclaje. El proyecto tiene un alto presupuesto y un fuerte énfasis en la identificación y control de riesgos, por lo que se organiza en ciclos que incluyen análisis de riesgos, diseño, desarrollo de prototipos y evaluación antes de pasar a la siguiente fase. ¿Qué metodología se ha usado en este proyecto?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Cascada",
+                "correct": false,
+                "feedback": "Incorrecto. La cascada no integra análisis de riesgos en ciclos sucesivos."
+            },
+            {
+                "answer": "Incremental",
+                "correct": false,
+                "feedback": "Incorrecto. El incremental no pone el foco en la gestión de riesgos como parte central del proceso."
+            },
+            {
+                "answer": "Iterativa",
+                "correct": false,
+                "feedback": "Incorrecto. La iterativa repite ciclos de desarrollo y revisión, pero no prioriza explícitamente la gestión de riesgos."
+            },
+            {
+                "answer": "Espiral",
+                "correct": true,
+                "feedback": "Correcto. La metodología en espiral combina iteraciones con un fuerte énfasis en la evaluación y gestión de riesgos en cada ciclo."
+            }
+        ]
+    },
+    {
         "question": "Elige la metodología más adecuada para un proyecto con requisitos cambiantes, entregas frecuentes y bajo riesgo.",
         "type": "many_choice",
         "answers": [
