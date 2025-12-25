@@ -25,20 +25,29 @@ parts:
           - file: II/tradicionales/iterativa
           - file: II/tradicionales/incremental-it
           - file: II/tradicionales/espiral
+          - file: II/tradicionales/ejercicios
       - file: II/agiles
         sections:
         - file: II/agiles/scrum
         - file: II/agiles/kanban
         - file: II/agiles/xp
         - file: II/agiles/lean
+        - file: II/agiles/ejercicios
       - file: II/emergentes
         sections:
         - file: II/emergentes/devops
         - file: II/emergentes/tdd
         - file: II/emergentes/user-centered
+        - file: II/emergentes/ejercicios
   - caption: "III. Planificación"
     chapters:
       - file: III/intro
+      - file: III/metodos
+      - file: III/control
+      - file: III/riesgos
+      - file: III/hitos
+      - file: III/equipo
+      - file: III/ejercicios
   - caption: "IV. Análisis y especificación de requisitos"
     chapters:
       - file: IV/intro

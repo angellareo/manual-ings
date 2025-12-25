@@ -1,0 +1,80 @@
+[
+    {
+        "question": "¿Cuál de las siguientes prácticas es fundamental en la cultura DevOps para mejorar la colaboración entre equipos de desarrollo y operaciones?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Integración continua",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "Despliegue manual",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Documentación exhaustiva",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Revisiones de código esporádicas",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "¿Cuál es el objetivo principal de la metodología TDD (Desarrollo Guiado por Pruebas)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Escribir código sin pruebas",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Escribir pruebas después de desarrollar el código",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Escribir pruebas antes de desarrollar el código",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "Evitar la refactorización del código",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "En el diseño centrado en el usuario, ¿es posible realizar pruebas de usabilidad con usuarios reales durante el proceso de desarrollo?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Sí, es una práctica común para obtener retroalimentación directa",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "No, las pruebas de usabilidad se realizan solo después del lanzamiento",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "No, las pruebas de usabilidad no son necesarias en el diseño centrado en el usuario",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Sí, pero solo con usuarios internos del equipo de desarrollo",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    }
+]
