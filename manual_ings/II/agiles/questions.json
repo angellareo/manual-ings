@@ -1,0 +1,80 @@
+[
+    {
+        "question": "¿Cuál de las siguientes metodologías ágiles se centra en la gestión visual del trabajo mediante tableros y tarjetas?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "SCRUM",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Kanban",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "XP",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Lean",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "¿Cuál de las siguientes prácticas es común en la metodología ágil XP (Extreme Programming)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Desarrollo en cascada",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Programación en pareja",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "Documentación exhaustiva",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Fases rígidas de desarrollo",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "¿Qué aspectos distinguen a la metodología SCRUM de otras metodologías ágiles?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Uso de columnas en un tablero para gestionar tareas",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Iteraciones cortas llamadas sprints",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "Desarrollo basado en pruebas automatizadas",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Minimización del desperdicio",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    }
+]
