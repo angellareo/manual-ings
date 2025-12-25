@@ -32,3 +32,8 @@ En definitiva, los contenidos de este libro cubren específicamente los siguient
 `````{important}
 Realizar un proyecto software no es sólo programar, es lidiar con restricciones y limitaciones.
 `````
+
+<!-- 
+## Referencias 
+- https://vijaysamyal.tripod.com/YOURDAN_SAD.pdf
+-->

@@ -19,13 +19,14 @@ Esto se unía al reciente surgimiento de la disciplina del desarrollo de softwar
 Por si fuera poco, en general el número de desarrolladores era escaso y, en muchos casos, carecían de formación suficiente.
 
 ### Consecuencias de la crisis del software
+
 - **Baja productividad** de los desarrolladores en relación con la demanda
 - Los sistemas no responden a las **expectativas** de los usuarios
 - **Baja fiabilidad y calidad**: Los programas fallan a menudo
-▪ **Costes** difíciles de predecir y que a menudo sobrepasan lo esperado
-▪ **Mantenimiento** del software **costoso y complejo**, acorta la vida útil del software
-▪ **Ineficiencia**: No hay aprovechamiento óptimo de recursos
-▪ **Incumplimiento de plazos**
+- **Costes** difíciles de predecir y que a menudo sobrepasan lo esperado
+- **Mantenimiento** del software **costoso y complejo**, acorta la vida útil del software
+- **Ineficiencia**: No hay aprovechamiento óptimo de recursos
+- **Incumplimiento de plazos**
 
 `````{important}
 ¡Algunos de estos problemas siguen estando presentes después de décadas!
