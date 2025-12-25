@@ -1,0 +1,33 @@
+[
+  {
+    "question": "¿Cuáles de las siguientes actividades deben realizarse durante la fase de planificación?",
+    "type": "many_choice",
+    "answers": [
+      {
+          "answer": "Definir criterios de validación",
+          "correct": true,
+          "feedback": "Correcto, definir los criterios de validación significa establecer cómo se medirá el éxito del proyecto, lo cual es parte de la planificación."
+      },
+      {
+          "answer": "Escribir el código fuente",
+          "correct": false,
+          "feedback": "No, escribir el código fuente se realiza en la fase de codificación."
+      },
+      {
+          "answer": "Verificación de los requisitos",
+          "correct": false,
+          "feedback": "No, esta actividad se realiza en la fase de análisis de requisitos."
+      },
+      {
+          "answer": "Definir el alcance del proyecto",
+          "correct": true,
+          "feedback": "Correcto, definir el alcance implica establecer los límites y entregables del proyecto, lo que debe realizarse en la fase de planificación."
+      },
+      {
+          "answer": "Asignar recursos y responsabilidades",
+          "correct": true,
+          "feedback": "Correcto, asignar recursos y responsabilidades equivale a planificar quién hará qué y con qué recursos."
+      }
+    ]
+  }
+]
