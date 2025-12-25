@@ -26,7 +26,7 @@
         ]
     },
     {
-        "question": "Un organismo de la administración pública encarga una aplicación que integre un modelo de lenguaje (LLM) para mejorar la atención ciudadana. El proyecto se desarrolla repitiendo ciclos de construcción, prueba y retroalimentación, en los que se revisa y ajusta el sistema en cada iteración hasta alcanzar la solución final. ¿Qué metodología se ha usado en este proyecto?",
+        "question": "Un organismo de la administración pública encarga una aplicación que integre un modelo de lenguaje (LLM) para mejorar la atención ciudadana. El proyecto se desarrolla repitiendo ciclos de construcción, prueba y retroalimentación, en los que se revisa y ajusta el sistema hasta alcanzar la solución final. ¿Qué metodología se ha usado en este proyecto?",
         "type": "many_choice",
         "answers": [
             {
