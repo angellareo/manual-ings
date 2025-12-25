@@ -4,40 +4,117 @@
 
 El **proceso software** o **proceso de desarrollo de software** es el conjunto coherente de actividades ordenadas que se destinan a producir un sistema software. Como sabemos, el objetivo de la Ingeniería del Software ha sido, desde sus inicios, estudiar y optimizar este proceso software.
 
-De acuerdo al [estándar ISO/IEC 12207](https://es.wikipedia.org/wiki/ISO/IEC_12207), todos los procesos software deben incorporar **cuatro tipos de actividad** fundamentales:
-- ```{dropdown} Actividades de acuerdo
-    Son actividades **de acuerdo** aquellas que implican a varias organizaciones. Incluye actividades relacionadas con el establecimiento de un acuerdo entre un proveedor y un cliente, como son la adquisición y el suministro de software.
+De acuerdo con el estándar **IEEE 1074-2006** (que adopta y se alinea con [ISO/IEC 12207](https://es.wikipedia.org/wiki/ISO/IEC_12207)), las actividades para el ciclo de vida del software se organizan en **cinco categorías principales**:
 
-- ```{dropdown} Actividades organizativas habilitantes de proyectos
-    Son actividades **organizativas habilitantes de proyectos** aquellas relacionadas con la propia organización desarrolladora y sus proyectos. Incluye las actividades de gestión de procesos, la cartera de proyectos, la asignación de recursos (infraestructura, recursos humanos, conocimiento) y el aseguramiento de la calidad en los procesos.
-    ```
+```{dropdown} 1. Gestión del proyecto (Project Management)
+Actividades para iniciar, monitorear y controlar un proyecto de software a lo largo de todo su ciclo de vida.
+- **Iniciación del proyecto:**
+    - Desarrollar el ciclo de vida del proyecto software (CVPS) (Requerido)
+    - Realizar estimaciones (Requerido)
+    - Asignar recursos del proyecto (Requerido)
+    - Definir métricas (Requerido)
+    - Determinar objetivos de seguridad (Requerido)
+- **Planificación del proyecto:**
+    - Planificar evaluaciones (Requerido)
+    - Planificar la gestión de configuración (Requerido)
+    - Planificar la transición del sistema (si aplica)
+    - Planificar la instalación
+    - Planificar la documentación (Requerido)
+    - Planificar la capacitación
+    - Planificar la gestión del proyecto (Requerido)
+    - Planificar la integración
+    - Planificar la gestión de lanzamientos
+- **Monitoreo y control del proyecto:**
+    - Gestionar riesgos (Requerido)
+    - Gestionar el proyecto (Requerido)
+    - Identificar necesidades de mejora del CVPS (Requerido)
+    - Retener registros (Requerido)
+    - Recopilar y analizar datos de métricas (Requerido)
+    - Cerrar el proyecto (Requerido)
+```
 
-- ```{dropdown} Actividades de gestión y control
-    Actividades referidas a un proyecto específico e incluyen tareas como:
+```{dropdown} 2. Pre-desarrollo (Pre-Development)
+Actividades que exploran y asignan los requisitos del sistema antes de que comience el desarrollo del software.
+- **Exploración de conceptos:**
+    - Identificar ideas o necesidades (Requerido)
+    - Formular enfoques potenciales (Requerido)
+    - Realizar estudios de factibilidad (Requerido)
+    - Refinar y finalizar la idea o necesidad (Requerido)
+- **Asignación del sistema:**
+    - Analizar las funciones del sistema
+    - Desarrollar la arquitectura del sistema
+    - Asignar los requisitos del sistema
+- **Importación de software:**
+    - Identificar requisitos de software importado
+    - Evaluar fuentes de importación de software
+    - Definir el método de importación de software
+    - Importar software
+```
 
-        - Evaluación y control de proyectos.
-        - Gestión de decisiones.
-        - Gestión de riesgos.
-        - Gestión de configuraciones.
-        - Gestión de la información.
-        - Proceso de garantía de calidad.
-    ```
+```{dropdown} 3. Desarrollo (Development)
+Actividades realizadas durante el desarrollo y mejora del proyecto de software.
+- **Requisitos del software:**
+    - Definir y desarrollar los requisitos del software
+    - Definir los requisitos de interfaz
+    - Priorizar e integrar los requisitos del software
+- **Diseño:**
+    - Realizar el diseño arquitectónico
+    - Diseñar la base de datos (si aplica)
+    - Diseñar las interfaces
+    - Realizar el diseño detallado
+- **Implementación:**
+    - Crear código ejecutable
+    - Crear la documentación de operación
+    - Realizar la integración
+    - Gestionar los lanzamientos de software
+```
 
-- ```{dropdown} Actividades técnicas
-    Son actividades también referidas al proyecto e incluyen tareas como:
+```{dropdown} 4. Post-desarrollo (Post-Development)
+Actividades para instalar, operar, dar soporte, mantener y retirar un producto software.
+- **Instalación:**
+    - Distribuir el software
+    - Instalar el software
+    - Aceptar el software en el entorno operativo
+- **Operación y soporte:**
+    - Operar el sistema
+    - Proporcionar asistencia técnica y consultoría
+    - Mantener el registro de solicitudes de soporte
+- **Mantenimiento:**
+    - Identificar necesidades de mejora del software
+    - Implementar el método de reporte de problemas
+    - Reaplicar el CVPS
+- **Retiro:**
+    - Notificar al usuario
+    - Realizar operaciones en paralelo (si aplica)
+    - Retirar el sistema
+```
 
-        - Análisis de los requisitos del software.
-        - Diseño de la arquitectura del software.
-        - Diseño detallado del software.
-        - Construcción del software.
-        - Integración del software.
-        - Pruebas del software.
-        - Integración del sistema.
-        - Pruebas del software.
-    ```
+```{dropdown} 5. Soporte (Support)
+Actividades transversales necesarias para completar con éxito las funciones del proyecto y asegurar su calidad.
+- **Evaluación:**
+    - Realizar revisiones (Requerido)
+    - Crear la matriz de trazabilidad
+    - Realizar auditorías
+    - Desarrollar procedimientos de prueba
+    - Crear datos de prueba
+    - Ejecutar pruebas
+    - Reportar resultados de la evaluación (Requerido)
+    - Confirmar la acreditación de seguridad (Requerido)
+- **Gestión de la configuración del software:**
+    - Desarrollar la identificación de la configuración (Requerido)
+    - Realizar el control de configuración (Requerido)
+    - Realizar el estado de cuentas de configuración (Requerido)
+- **Desarrollo de documentación:**
+    - Implementar la documentación (Requerido)
+    - Producir y distribuir la documentación (Requerido)
+- **Capacitación:**
+    - Desarrollar materiales de capacitación
+    - Validar el programa de capacitación
+    - Implementar el programa de capacitación
+```
 
-Históricamente, se ha dividido el **proceso software** en **6 fases** más una fase inicial de planificación, lo que se conoce como **ciclo de vida software**:
-- 0. Planificación y actividades tempranas
+Históricamente, se ha dividido el **proceso software** en **6 fases** (más una fase inicial de planificación), lo que se conoce como **ciclo de vida del proyecto software** (CVPS, o SDLC por sus siglas en inglés: Software Development Life Cycle). Estas fases son:
+- 0. Planificación (actividades tempranas en el desarrollo de software)
 - 1. Análisis
 - 2. Diseño
 - 3. Codificación
@@ -80,7 +157,15 @@ Todos estos aspectos describen una **metodología de proceso software** o **mode
     - [Kanban](agiles/kanban.md)
     ```
 - ```{dropdown} Metodologías emergentes:
-    - DevOps.
-    - Guiadas por pruebas.
-    - Centradas en el usuario.
+    - [DevOps](emergentes/devops.md).
+    - [Guiadas por pruebas](emergentes/tdd.md).
+    - [Centradas en el usuario](emergentes/user-centered.md).
     ```
+
+## Objetivos de aprendizaje
+Al finalizar este tema, el estudiante será capaz de:
+- Definir **qué es un proceso software** y sus actividades fundamentales.
+- Explicar las **fases del ciclo de vida** software.
+- Diferenciar entre las distintas **metodologías** de desarrollo de software.
+- Analizar las **ventajas** e **inconvenientes** de las distintas metodologías de desarrollo de software.
+- Analizar y **seleccionar el modelo de ciclo de vida** adecuado para un proyecto de software.
