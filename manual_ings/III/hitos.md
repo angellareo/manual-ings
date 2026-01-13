@@ -8,6 +8,10 @@ Un **hito** (o *milestone*) es un punto específico en el tiempo que marca la **
 
 Es relevante diferenciar los hitos de los entregables. Un entregable es un producto tangible como el Documento de Especificación de Requisitos. Un hito, en cambio, es un punto en el tiempo que indica que se ha alcanzado un objetivo importante, como la finalización de la fase de Análisis. Solo en algunos casos un hito puede coincidir con la validación final de un entregable.
 
+`````{admonition} Una planificación inteligente de hitos...
+transforma un cronograma lineal en una **serie de puertas de control** (*stage-gates*). Cada hito es una oportunidad para **parar, evaluar, aprender y decidir** con información actualizada.
+`````
+
 ## Técnicas para identificar hitos
 
 Para definir hitos relevantes y bien ubicados en el tiempo, utilizamos técnicas de descomposición y planificación temporal.
@@ -49,7 +53,3 @@ Los hitos no son solo marcadores de progreso; son **puntos vitales de control pa
 3.  Los hitos como objetivos para **mitigar riesgos**:
     *   Podemos definir **hitos intermedios específicos para mitigar riesgos técnicos**. Por ejemplo, si existe el riesgo de que una tecnología nueva no funcione, un hito temprano puede ser "Prototipo de Concepto de la Tecnología X Validado".
 
-
-````{admonition}Una planificación inteligente de hitos...
-transforma un cronograma lineal en una **serie de puertas de control** (*stage-gates*). Cada hito es una oportunidad para **parar, evaluar, aprender y decidir** con información actualizada.
-````
