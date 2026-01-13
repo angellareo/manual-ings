@@ -8,9 +8,9 @@ parts:
     chapters:
     - file: prefacio/autor
     - file: prefacio/agradecimientos
+    - file: prefacio/intro
   - caption: "I. Introducción a la Ingeniería del Software"
     chapters:
-      - file: I/intro
       - file: I/definicion-sw
       - file: I/que-es-ing-sw
       - file: I/historia
