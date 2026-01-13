@@ -81,8 +81,8 @@
             "feedback": "No es correcto. Intenta recordar cuándo la crisis del software llevó a formalizar las prácticas de desarrollo."
           }
         ]
-      },
-      {
+    },
+    {
         "question": "¿Qué es la crisis del software?",
         "type": "many_choice",
         "answers": [
@@ -107,8 +107,8 @@
                 "feedback": "Correcto. La crisis del software impulsó la necesidad de formalizar las prácticas de desarrollo y establecer la Ingeniería del Software como disciplina."
             }
         ]
-      },
-      {
+    },
+    {
         "question": "¿Qué tipo de software es Claude, el chatbot de Anthropic?",
         "type": "many_choice",
         "answers": [
@@ -133,5 +133,5 @@
                 "feedback": "Correcto. Claude es un modelo de lenguaje desarrollado por Anthropic y ofrecido como chatbot, basado en técnicas de aprendizaje automático profundo."
             }
         ]
-      }
+    }
 ]
