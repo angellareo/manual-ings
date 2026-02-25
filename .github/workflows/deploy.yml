@@ -39,6 +39,12 @@ jobs:
       - name: Build the book
         run: |
           jupyter-book build manual_ings
+      
+      # Debug: List build output
+      - name: List build output
+        run: |
+          ls -la manual_ings/_build/
+          ls -la manual_ings/_build/html/
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
