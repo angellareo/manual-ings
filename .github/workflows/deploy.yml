@@ -40,7 +40,7 @@ jobs:
         run: |
           set -e
           echo "Starting build..."
-          jupyter-book build manual_ings 2>&1
+          jupyter-book build --html manual_ings
           echo "Build command completed"
           if [ -d "_build/html" ]; then
             echo "Success! Build output found at ./_build/html"
@@ -48,6 +48,7 @@ jobs:
           else
             echo "ERROR: Build output not found!"
             find . -name "_build" -type d
+            find . -name "html" -type d
             exit 1
           fi
 
