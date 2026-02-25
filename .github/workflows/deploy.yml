@@ -40,19 +40,14 @@ jobs:
         run: |
           set -e
           echo "Starting build..."
-          jupyter-book build manual_ings 2>&1 || {
-            echo "Build failed! Checking manual_ings directory..."
-            ls -la manual_ings/
-            exit 1
-          }
+          jupyter-book build manual_ings 2>&1
           echo "Build command completed"
-          if [ -d "manual_ings/_build/html" ]; then
-            echo "Success! Build output found:"
-            ls -la manual_ings/_build/html/ | head -10
+          if [ -d "_build/html" ]; then
+            echo "Success! Build output found at ./_build/html"
+            ls -la _build/html/ | head -10
           else
-            echo "ERROR: No _build/html directory created!"
-            echo "Searching for any _build directories..."
-            find . -name "_build" -type d 2>/dev/null || echo "No _build found"
+            echo "ERROR: Build output not found!"
+            find . -name "_build" -type d
             exit 1
           fi
 
@@ -60,7 +55,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "manual_ings/_build/html"
+          path: "_build/html"
 
       # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
